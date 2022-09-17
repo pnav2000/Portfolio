@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>timepass</title>
+	<style>
+		p
+		{
+			background-color: grey;
+		}
+		.sideway{
+			writing-mode: vertical-rl;
+		}
+		.normal{
+			width: 35%;
+			float: left;
+		}
+	</style>
+</head>
+<body>
+<input list="tags" name="tag" id="tag">
+<datalist id="tags">
+	<option value="<a>">
+	<option value="<abbr>">
+	<option value="<blockquote>">
+	<option value="<b>">
+	<option value="<cite>">
+	<option value="<canva>">
+	<option value="<center>">
+</datalist>
+
+<br><br><br><br>
+<label><input type="checkbox" name="checkbox" id="checkbox_id" value="value">I agree</label>
+
+<br><br><br><br>
+<p class="normal">Normal Text</p>
+<p class="sideway">Side way text;</p>
+
+<br><br><br><br>
+<script>
+	let car1={name:"Audi",model:"A4"}
+	let car2={name:"Volvo",model:"XC90"}
+	let car3={name:"Ford",model:"Fusion"}
+	var a = console.table([car1,car2,car3]);
+	document.write(a);
+</script>
+</body>
+</html>
